@@ -25,6 +25,7 @@ add_subdirectory(3rdparty)
 # set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
 include(${CMAKE_SOURCE_DIR}/cmake/utils.cmake)
+include(${CMAKE_SOURCE_DIR}/cmake/json.cmake)
 
 # 添加模块
 add_subdirectory(modules)
