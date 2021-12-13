@@ -11,6 +11,7 @@ getjsonlib()
 
 add_executable(${PROJECT_NAME} ${SRCS})
 
+
 target_link_libraries(${PROJECT_NAME} PRIVATE nlohmann_json::nlohmann_json)
 
 

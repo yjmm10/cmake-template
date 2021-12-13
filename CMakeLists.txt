@@ -31,6 +31,7 @@ include(${CMAKE_SOURCE_DIR}/cmake/json.cmake)
 add_subdirectory(modules)
 
 # 添加测试模块
+add_subdirectory(tests)
 
 
 
