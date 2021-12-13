@@ -20,7 +20,7 @@ message("--------------主模块：cmake-template--------------")
 
 
 # 添加第三方库
-# add_subdirectory(3rdparty)
+add_subdirectory(3rdparty)
 # 添加cmake
 # set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
